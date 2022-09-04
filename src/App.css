@@ -1,38 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap");
 .App {
   text-align: center;
+  background-color: rgb(98, 177, 212);
+  height: 45%;
+  margin: 20px;
+}
+.name {
+  font-family: "Kalam", cursive;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.static-text {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.dynamic-text {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  border-right: 2px solid gray;
+  font-family: "Special Elite", cursive;
+}
+.abt {
+  margin: 20px;
+}
+.about {
+  font-size: 100px;
+  font-weight: 100;
+  color: rgb(175, 170, 170);
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.myself {
+  font-size: 50px;
+  font-family: "Rajdhani", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 70px;
+
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.html {
+  height: 200px;
+}
+.css {
+  height: 200px;
+}
+.javascript {
+  height: 180px;
+}
+.react {
+  height: 170px;
+  margin-right: 15px;
+}
+.bootstrap {
+  height: 180px;
+
+  margin-right: 15px;
+}
+.material-ui {
+  height: 200px;
+}
+.carousal {
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.projects {
+  margin: 20px;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects li {
+  font-family: "Jura", sans-serif;
+}
+
+.projects p {
+  font-size: 20px;
+  margin-left: 70px;
+  font-weight: lighter;
+  color: rgb(172, 162, 162);
+}
+
+.more-about {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footerImg {
+  width: 100%;
 }
