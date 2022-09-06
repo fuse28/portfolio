@@ -66,16 +66,18 @@ function App() {
       <br />
       <div>
         <h1 className="skills">Skills</h1>
-        <img className="html" src={html} alt="html logo" />
-        <img className="css" src={css} alt="css logo" />
-        <img className="javascript" src={javascript} alt="js logo" />
-        <img className="react" src={react} alt="react logo" />
-        <img className="bootstrap" src={bootstrap} alt="bootstrap logo" />
-        <img className="material-ui" src={materialui} alt="MUI logo" />
+        <div className="logos">
+          <img className="html" src={html} alt="html logo" />
+          <img className="css" src={css} alt="css logo" />
+          <img className="javascript" src={javascript} alt="js logo" />
+          <img className="react" src={react} alt="react logo" />
+          <img className="bootstrap" src={bootstrap} alt="bootstrap logo" />
+          <img className="material-ui" src={materialui} alt="MUI logo" />
+        </div>
       </div>
       <br />
       <div className="carousal">
-        <CCarousel controls indicators interval={1000}>
+        <CCarousel controls indicators interval={5000}>
           <CCarouselItem>
             <CImage className="d-block w-100" src={img1} alt="slide 1" />
           </CCarouselItem>
